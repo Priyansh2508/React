@@ -21,9 +21,10 @@ const jsxheading = (<h1 className="head">
 //functional components NEW
 
 //react functional component function that returns jsx code
-const HeadingComponent=()=>{
-    return <h1>Namaste React functional components</h1>
-}
+const HeadingComponent=()=>(
+
+   <h1>Namaste React functional components</h1>    //component composition composition in a composition
+);
 
 const root= ReactDOM.createRoot(document.getElementById("root"));
 
